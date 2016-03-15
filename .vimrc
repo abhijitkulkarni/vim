@@ -66,6 +66,8 @@ vnoremap <c-a> :s/^/# / <cr>
 " CTRL-SHIFT-A to uncomment selected region by #
 vnoremap <c-s-a> :s/^# // <cr>
 
+" Create swapfiles in following directory
+set directory=~/.vim/swapfiles//
 
 "--------------------
 " SEARCH
